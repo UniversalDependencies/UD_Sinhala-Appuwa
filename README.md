@@ -28,6 +28,7 @@
 Data available since: UD v2.10
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction
 Lemmas: manual native
 UPOS: manual native
