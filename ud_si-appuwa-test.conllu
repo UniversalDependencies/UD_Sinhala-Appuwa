@@ -1,0 +1,1084 @@
+# sent_id = 1
+# text = මීට අවුරුදු හත්සීයකට විතර ඉස්සර ලංකාවේ යාපහුව කියලා පුංචි රජධානියක් තිබුනා .
+# original_text = මීට අවුරුදු හත්සීයකට විතර ඉස්සර ලංකාවේ යාපහුව කියලා පුංචි රජධානියක් තිබුනා .
+# gloss = This (DAT) years seven hundred (INDF - DAT) about before Sri Lanka (LOC) Yapahuwa called small kingdom (INDF) was
+# translation = About seven hundred years ago, there was a small kingdom called Yapahuwa in Sri Lanka.
+1	මීට	මේ	PRON	_	Case=Dat|Number=Sing|PronType=Dem	11	obl	_	_
+2	අවුරුදු	අවුරුදු	NOUN	_	Case=Nom|Number=Plur	3	nmod	_	_
+3	හත්සීයකට	හත්සීයක්	NUM	_	NumType=Card	11	obl	_	_
+4	විතර	විතර	ADV	_	_	3	advmod	_	_
+5	ඉස්සර	ඉස්සර	ADV	_	_	11	advmod	_	_
+6	ලංකාවේ	ලංකාව	PROPN	_	Case=Loc|Number=Sing	11	obl	_	_
+7	යාපහුව	යාපහුව	PROPN	_	Number=Sing	10	acl	_	_
+8	කියලා	කියලා	SCONJ	_	_	7	obj	_	_
+9	පුංචි	පුංචි	ADJ	_	Degree=Pos	10	amod	_	_
+10	රජධානියක්	රජධානිය	NOUN	_	Definite=Ind|Number=Sing	11	nsubj	_	_
+11	තිබුනා	තිබුන	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2
+# text = මේ රාජ්‍යය පාලනය කලේ බුවනෙකබා කියලා රජ කෙනෙක් .
+# original_text = මේ රාජ්‍යය පාලනය කලේ බුවනෙකබා කියලා රජ කෙනෙක් .
+# gloss = This kingdom ruled (PT-FOC) Buwanekaba named king one
+# translation = This kingdom was ruled by a king named Buwanekaba.
+1	මේ	මේ	DET	_	PronType=Dem	2	det	_	_
+2	රාජ්‍යය	රාජ්‍ය	NOUN	_	Definite=Def|Number=Sing	4	obj	_	_
+3	පාලනය	පාලනය	NOUN	_	Definite=Def|Number=Sing	2	compound	_	_
+4	කලේ	කර	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	බුවනෙකබා	බුවනෙකබා	PROPN	_	Gender=Masc|Number=Sing	6	obj	_	_
+6	කියලා	කිය	SCONJ	_	_	8	acl	_	_
+7	රජ	රජ	NOUN	_	Case=Nom|Number=Sing	8	compound	_	_
+8	කෙනෙක්	කෙනෙක්	DET	_	PronType=Ind	4	nsubj	_	_
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 3
+# text = සතුරු උවදුරු වලින් තමන්ව රැක ගන්න රජතුමා කන්දක් උඩ අලුත් මාළිගාවක් ඉදිකෙරුවා .
+# original_text = සතුරු උවදුරු වලින් තමන්ව රැක ගන්න රජතුමා කන්දක් උඩ අලුත් මාළිගාවක් ඉදිකෙරුවා .
+# gloss = enemy disaster (PL - ABL) oneself (ACC) protect (RFL.INF - DAt) king mountain (INDF) on new castle (INDF) construct (CAUS.PAST)
+# translation = To defend himself against rival forces, the king built his palace on the top of a mountain.
+1	සතුරු	සතුරු	NOUN	_	Number=Plur	2	compound	_	_
+2	උවදුරු	උවදුර	NOUN	_	Number=Plur	12	obl	_	_
+3	වලින්	වලින්	ADP	_	_	2	case	_	_
+4	තමන්ව	තමන්	PRON	_	Case=Acc|PronType=Prs	5	obj	_	_
+5	රැක	රැක	VERB	_	VerbForm=Inf	12	advcl	_	_
+6	ගන්න	ගන්න	VERB	_	VerbForm=Inf	5	compound:lvc	_	_
+7	රජතුමා	රජතුමා	NOUN	_	Animacy=Hum|Number=Sing	12	nsubj	_	_
+8	කන්දක්	කන්ද	NOUN	_	Case=Nom|Definite=Ind|Number=Sing	12	obl	_	_
+9	උඩ	උඩ	ADP	_	_	8	case	_	_
+10	අලුත්	අලුත්	ADJ	_	_	11	amod	_	_
+11	මාළිගාවක්	මාළිගාව	NOUN	_	Case=Acc|Definite=Ind|Number=Sing	12	obj	_	_
+12	ඉදිකෙරුවා	ඉදිකර	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 4
+# text = රජතුමා ඒකට තෝර ගත්තේ වීරගල කියන කන්දයි .
+# original_text = රජතුමා ඒකට තෝර ගත්තේ වීරගල කියන කන්දයි .
+# gloss = King (HON) that (DAT) select (REFL.PT-FOC) Weeragala named mountain (AM)
+# translation = It was the mountain called Weeragala that the king selected the for the purpose.
+1	රජතුමා	රජතුමා	NOUN	_	Animacy=Hum|Number=Sing	4	nsubj	_	_
+2	ඒකට	එක	PRON	_	Case=Dat|Number=Sing|PronType=Dem	4	obl	_	_
+3	තෝර	තෝරන්න	VERB	_	VerbForm=Conv	4	xcomp	_	_
+4	ගත්තේ	ගන්න	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	වීරගල	වීරගල	PROPN	_	Number=Sing	6	obj	_	_
+6	කියන	කිය	VERB	_	VerbForm=Part	7	acl	_	_
+7	කන්දයි	කන්ද	NOUN	_	Number=Sing	4	obj	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 5
+# text = අගමෙහෙසිය ඇතුලු පරිවාර බිසවුන් හැටපස්දෙනෙක් එක්ක රජතුමා අලුත් මාළිගාවේ පදිංචියට ගියා .
+# original_text = අගමෙහෙසිය ඇතුලු පරිවාර බිසවුන් හැටපස්දෙනෙක් එක්ක රජතුමා අලුත් මාළිගාවේ පදිංචියට ගියා .
+# gloss = Chief queen including surrounding queens sixtyfive people with king (Hon) new castle (LOC) residing (DAT) went.
+# translation = The king moved to the new castle with his queen consort and sixtyfive deputy queens.
+1	අගමෙහෙසිය	අගමෙහෙසි	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	11	obl	_	_
+2	ඇතුලු	ඇතුලු	ADP	_	_	1	case	_	_
+3	පරිවාර	පරිවාර	NOUN	_	Case=Nom|Number=Sing	4	compound	_	_
+4	බිසවුන්	බිසවු	NOUN	_	Case=Nom|Number=Plur	1	conj	_	_
+5	හැටපස්දෙනෙක්	හැටපස්	NUM	_	NumType=Card	4	nummod	_	_
+6	එක්ක	එක්ක	ADP	_	_	4	case	_	_
+7	රජතුමා	රජතුමා	NOUN	_	Animacy=Hum|Gender=Masc|Number=Sing	11	nsubj	_	_
+8	අලුත්	අලුත්	ADJ	_	_	9	amod	_	_
+9	මාළිගාවේ	මාළිගාව	NOUN	_	Case=Loc|Number=Sing	10	nmod	_	_
+10	පදිංචියට	පදිංචි	NOUN	_	Case=Dat|Number=Sing	11	obl	_	_
+11	ගියා	යන්න	VERB	_	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 6
+# text = රජතුමා වීරගල පදිංචියට ආපු එක ගැන මනාපයක් දැක්වුවේ නැති කෙනෙක් හිටියා .
+# original_text = රජතුමා වීරගල පදිංචියට ආපු එක ගැන මනාපයක් දැක්වුවේ නැති කෙනෙක් හිටියා .
+# gloss = King (HON) weeragala residing (DAT) come (PTAD) one about like (INDF) show (FOC) (NEG) person (INDF) was
+# translation = There was a person, who was not happy with the kings’ new arrival in to Weeragala.
+1	රජතුමා	රජතුමා	NOUN	_	Animacy=Hum|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	වීරගල	වීරගල	PROPN	_	Number=Sing	3	nmod	_	_
+3	පදිංචියට	පදිංචි	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
+4	ආපු	ආ	VERB	_	Tense=Past|VerbForm=Part	5	acl	_	_
+5	එක	එක	PRON	_	Case=Ins|Number=Sing|PronType=Dem	8	obl	_	_
+6	ගැන	ගැන	ADP	_	_	5	case	_	_
+7	මනාපයක්	මනාප	NOUN	_	Case=Acc|Definite=Ind|Number=Sing	8	obj	_	_
+8	දැක්වුවේ	දැක්වූ	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	acl	_	_
+9	නැති	නැති	PART	_	Polarity=Neg	8	advmod	_	_
+10	කෙනෙක්	කෙනා	NOUN	_	Case=Nom|Definite=Ind|Number=Sing	11	acl	_	_
+11	හිටියා	හිට	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 7
+# text = ඒ පළාතේ රටේ රාළයි ඒ .
+# original_text = ඒ පළාතේ රටේ රාළයි ඒ .
+# gloss = that area (LOC) local chieftain (AM) that
+# translation = That was the local chieftain of that area.
+1	ඒ	ඒ	PRON	_	Case=Nom|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	පළාතේ	පළාත	NOUN	_	Case=Loc|Number=Sing	4	nmod	_	_
+3	රටේ	රට	NOUN	_	Case=Loc|Number=Sing	4	nmod	_	_
+4	රාළයි	රාළ	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+5	ඒ	ඒ	PROPN	_	Case=Nom|Number=Sing	4	discourse	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 8
+# text = ගලබැද්දේරාළ අග්බෝ කුමාරයාට ගතු කියලා රජතුමාත් කුමාරයාත් අතර හතුරුකමක් ඇවිලෙව්වා .
+# original_text = ගලබැද්දේරාළ අග්බෝ කුමාරයාට ගතු කියලා රජතුමාත් කුමාරයාත් අතර හතුරුකමක් ඇවිලෙව්වා .
+# gloss = Galabedderala Agbo prince (DAT) telltale say (PP) King (HON)-too Prince-too between dispute (INDF) kindle (PAST).
+# translation = Galabedderala created a dispute between king and the prince Agbo by telling telltale to the prince.
+1	ගලබැද්දේරාළ	ගලබැද්දේරාළ	PROPN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+2	අග්බෝ	අග්බෝ	PROPN	_	Gender=Masc|Number=Sing	3	compound	_	_
+3	කුමාරයාට	කුමාරයා	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	_
+4	ගතු	ගතු	NOUN	_	Number=Sing	10	nmod	_	_
+5	කියලා	කිය	SCONJ	_	_	4	mark	_	_
+6	රජතුමාත්	රජතුමා	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+7	කුමාරයාත්	කුමාරයා	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+8	අතර	අතර	ADP	_	_	9	case	_	_
+9	හතුරුකමක්	හතුරුකම	NOUN	_	Case=Nom|Definite=Ind|Number=Sing	10	obj	_	_
+10	ඇවිලෙව්වා	ඇවිලේ	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 9
+# text = අග්බෝ කුමාරයා තමන්ට විරුද්ධව කැරැල්ලක් ගහන්න සූදානම් වෙන විත්තිය දැනගත්ත රජතුමා සතුරා විනාශ කරන්න වහාම හමුදාව රැස්කලා .
+# original_text = අග්බෝ කුමාරයා තමන්ට විරුද්ධව කැරැල්ලක් ගහන්න සූදානම් වෙන විත්තිය දැනගත්ත රජතුමා සතුරා විනාශ කරන්න වහාම හමුදාව රැස්කලා .
+# gloss = Agbo prince oneself(DAT) against rebellion (INDF) strike (INF) prepare (NPT) fact come to know (PT) king (HON) enemy destroy (INF) promptly army gather (PAST).
+# translation = The King heard the news that the prince Agbo was organizing a rebellion and promptly gathered his troops to destroy the enemy.
+1	අග්බෝ	අග්බෝ	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+2	කුමාරයා	කුමාරයා	NOUN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	තමන්ට	තමන්	PRON	_	Case=Dat|PronType=Prs	6	obl	_	_
+4	විරුද්ධව	විරුද්ධව	ADP	_	_	3	case	_	_
+5	කැරැල්ලක්	කැරැල්ල	NOUN	_	Case=Acc|Definite=Ind|Number=Sing	6	obj	_	_
+6	ගහන්න	ගහන්න	VERB	_	VerbForm=Inf	7	xcomp	_	_
+7	සූදානම්	සූදානම්	ADJ	_	Degree=Pos	8	xcomp	_	_
+8	වෙන	වෙන	VERB	_	VerbForm=Part	9	acl	_	_
+9	විත්තිය	විත්තිය	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
+10	දැනගත්ත	දැනගත්ත	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl	_	_
+11	රජතුමා	රජතුමා	NOUN	_	Animacy=Hum|Case=Nom|Number=Sing	17	nsubj	_	_
+12	සතුරා	සතුරා	NOUN	_	Case=Acc|Number=Sing	14	obj	_	_
+13	විනාශ	විනාශ	NOUN	_	Case=Acc|Number=Sing	14	compound:lvc	_	_
+14	කරන්න	කරන්න	VERB	_	VerbForm=Inf	17	advcl	_	_
+15	වහාම	වහාම	ADV	_	_	17	advmod	_	_
+16	හමුදාව	හමුදාව	NOUN	_	Case=Acc|Number=Sing	17	obj	_	_
+17	රැස්කලා	රැස්කලා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 10
+# text = ඉක්මනින්ම හමුදා දෙක අතර යුද්ධයක් ඇතිඋනා .
+# original_text = ඉක්මනින්ම හමුදා දෙක අතර යුද්ධයක් ඇතිඋනා .
+# gloss = soon armies two between war (INDF) arise (PAST)
+# translation = Soon a war broke out between the two armies.
+1	ඉක්මනින්ම	ඉක්මනින්	ADV	_	_	6	advmod	_	_
+2	හමුදා	හමුදාව	NOUN	_	Case=Nom|Number=Plur	5	nmod	_	_
+3	දෙක	දෙක	NUM	_	NumType=Card	2	nummod	_	_
+4	අතර	අතර	ADP	_	_	2	case	_	_
+5	යුද්ධයක්	යුද්ධය	NOUN	_	Case=Nom|Definite=Ind|Number=Sing	6	nsubj	_	_
+6	ඇතිඋනා	ඇතිවීම	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 11
+# text = රජතුමාගේ අගමෙහෙසියට ඒ වනවිට ළඳරු පුතෙක් හිටියා .
+# original_text = රජතුමාගේ අගමෙහෙසියට ඒ වනවිට ළඳරු පුතෙක් හිටියා .
+# gloss = King (HON.GEN) topqueen (DAT) by then baby boy(INDF) was
+# translation = By then the queen consort had a baby boy.
+1	රජතුමාගේ	රජතුමා	NOUN	_	Animacy=Hum|Case=Gen|Definite=Def|Number=Sing	2	nmod:poss	_	_
+2	අගමෙහෙසියට	අගමෙහෙසිය	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	7	nmod:poss	_	_
+3	ඒ	ඒ	PRON	_	PronType=Dem	4	det	_	_
+4	වනවිට	විට	NOUN	_	Case=Loc|Number=Sing	7	obl:tmod	_	_
+5	ළඳරු	ළඳරු	NOUN	_	Case=Nom|Definite=Ind|Number=Sing	6	compound	_	_
+6	පුතෙක්	පුත්‍ර	NOUN	_	Case=Nom|Definite=Ind|Number=Sing	7	nsubj	_	_
+7	හිටියා	හිටියා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 12
+# text = යුද්ධෙට පිටත් වෙන්න ඉස්සෙල්ලා රජතුමා බිසෝවරුන්ට කරුනු පැහැදිලි කලා .
+# original_text = යුද්ධෙට පිටත් වෙන්න ඉස්සෙල්ලා රජතුමා බිසෝවරුන්ට කරුනු පැහැදිලි කලා .
+# gloss = war (DAT) leave (INF) before king(HON) queen (HON-PL-DAT) matters clarify (PAST)
+# translation = Before leaving for the battlefield the king described the situation to the queens.
+1	යුද්ධෙට	යුද්ධය	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
+2	පිටත්	පිටත්	VERB	_	VerbForm=Inf	3	compound:svc	_	_
+3	වෙන්න	වෙ	VERB	_	VerbForm=Inf	4	xcomp	_	_
+4	ඉස්සෙල්ලා	ඉස්සෙල්ලා	ADV	_	_	9	advcl	_	_
+5	රජතුමා	රජතුමා	NOUN	_	Animacy=Hum|Number=Sing	9	nsubj	_	_
+6	බිසෝවරුන්ට	බිසව	NOUN	_	Animacy=Hum|Case=Dat|Number=Plur	9	obl	_	_
+7	කරුනු	කරුණ	NOUN	_	Case=Acc|Number=Plur	9	obj	_	_
+8	පැහැදිලි	පැහැදිලි	ADJ	_	Degree=Pos	7	amod	_	_
+9	කලා	කර	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 13
+# text = මම කැරැල්ල මර්දනය කරන්න යනවා .
+# original_text = මම කැරැල්ල මර්දනය කරන්න යනවා .
+# gloss = I rebellion put down (INF) go IND)
+# translation = I will go to put down the rebellion.
+1	මම	මම	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	කැරැල්ල	කැරැල්ල	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+3	මර්දනය	මර්දන	NOUN	_	Case=Acc|Number=Sing	4	compound	_	_
+4	කරන්න	කර	VERB	_	VerbForm=Inf	5	xcomp	_	_
+5	යනවා	යන	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 14
+# text = යුද්ධේ අවසන් වෙන කොට පණිවිඩකාරයෙක් ඒවි .
+# original_text = යුද්ධේ අවසන් වෙන කොට පණිවිඩකාරයෙක් ඒවි .
+# gloss = war finish (NPT) when messenger (INDF) come(INFER)
+# translation = When the war draws to a close, there will be a messenger.
+1	යුද්ධේ	යුද්ධ	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
+2	අවසන්	අවසන්	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
+3	වෙන	වෙ	VERB	_	Aspect=Prog|VerbForm=Part	6	advcl	_	_
+4	කොට	කොට	SCONJ	_	_	3	mark	_	_
+5	පණිවිඩකාරයෙක්	පණිවිඩකාර	NOUN	_	Case=Nom|Definite=Ind|Number=Sing	6	nsubj	_	_
+6	ඒවි	එනවා	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 15
+# text = මං දින්නොත් සුදු කොඩියක් ඔසවාවි .
+# original_text = මං දින්නොත් සුදු කොඩියක් ඔසවාවි .
+# gloss = I win (PT-COND) white flag (INDF) raise (INFER)
+# translation = If I win he will raise a white flag.
+1	මං	මම	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	දින්නොත්	දින	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+3	සුදු	සුදු	ADJ	_	Degree=Pos	4	amod	_	_
+4	කොඩියක්	කොඩිය	NOUN	_	Case=Acc|Definite=Ind|Number=Sing	5	obj	_	_
+5	ඔසවාවි	ඔසවා	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 16
+# text = පැරදුනොත් කළු කොඩියක් ඔසවාවි .
+# original_text = පැරදුනොත් කළු කොඩියක් ඔසවාවි .
+# gloss = lose (PT-COND) black flag (INDF) raise (INFER)
+# translation = If I lose a black flag will be raised.
+1	පැරදුනොත්	පැරදු	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+2	කළු	කළු	ADJ	_	Degree=Pos	3	amod	_	_
+3	කොඩියක්	කොඩිය	NOUN	_	Case=Acc|Definite=Ind|Number=Sing	4	obj	_	_
+4	ඔසවාවි	ඔසව	VERB	_	Mood=Pot|VerbForm=Fin	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 17
+# text = ඊළඟ දවසේ බුවනෙකබා රජුගේ සේනාවත් අග්බෝ කුමාරයාගේ සේනාවත් අතර යුද්ධේ පටන් ගත්තා .
+# original_text = ඊළඟ දවසේ බුවනෙකබා රජුගේ සේනවත් අග්බෝ කුමාරයාගේ සේනාවත් අතර යුද්ධේ පටන් ගත්තා .
+# gloss = next day (LOC) Buwanekaba king (GEN) army-and Agbo prince (GEN) army-and between war start (past)
+# translation = On the following day the war broke out between King Buwanekaba's army and prince Agbo's army.
+1	ඊළඟ	ඊළඟ	ADJ	_	Degree=Pos	2	amod	_	_
+2	දවසේ	දවස	NOUN	_	Case=Loc|Definite=Def|Number=Sing	12	obl:tmod	_	_
+3	බුවනෙකබා	බුවනෙකබා	PROPN	_	Number=Sing	4	compound	_	_
+4	රජුගේ	රජු	NOUN	_	Case=Gen|Number=Sing	5	nmod:poss	_	_
+5	සේනාවත්	සේනාව	NOUN	_	Case=Nom|Number=Sing	12	obl	_	_
+6	අග්බෝ	අග්බෝ	PROPN	_	Gender=Masc|Number=Sing	7	compound	_	_
+7	කුමාරයාගේ	කුමාරයා	NOUN	_	Case=Gen|Number=Sing	8	nmod:poss	_	_
+8	සේනාවත්	සේනාව	NOUN	_	Case=Nom|Number=Sing	5	conj	_	_
+9	අතර	අතර	ADP	_	_	8	case	_	_
+10	යුද්ධේ	යුද්ධය	NOUN	_	Case=Nom|Definite=Def|Number=Sing	12	nsubj	_	_
+11	පටන්	පටන්	NOUN	_	Case=Nom|Number=Sing	12	compound:lvc	_	_
+12	ගත්තා	ගන්න	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 18
+# text = යුද්ධෙන් අග්බෝ කුමාරයා මියගියා .
+# original_text = යුද්ධෙන් අග්බෝ කුමාරයා මියගියා.
+# gloss = battle (ABL) Agbo prince die (PAST).
+# translation = Prince Agbo was killed in the battle.
+1	යුද්ධෙන්	යුද්ධ	NOUN	_	Case=Abl|Number=Sing	4	obl	_	_
+2	අග්බෝ	අග්බෝ	PROPN	_	Number=Sing	3	compound	_	_
+3	කුමාරයා	කුමාර	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	මියගියා	මියගියා	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 19
+# text = බුවනෙකබා රජ ජය ගත්තා .
+# original_text = බුවනෙකබා රජ ජය ගත්තා .
+# gloss = Buwanekaba king win (PAST)
+# translation = King Buwanekaba achieved victory.
+1	බුවනෙකබා	බුවනෙකබා	PROPN	_	_	2	compound	_	_
+2	රජ	රජ	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+3	ජය	ජය	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	ගත්තා	ගන්න	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 20
+# text = කොඩි බාර පණිවිඩකාරයා පුරවරයට ගිහින් බිසෝවරුන්ටත් රට වැසියන්ටත් යුද්ධේ ප්‍රතිඵල දැනුම් දෙන්න පිටත් උනා .
+# original_text = කොඩි බාර පණිවිඩකාරයා පුරවරයට ගිහින් බිසෝවරුන්ටත් රට වැසියන්ටත් යුද්ධේ ප්‍රතිඵල දැනුම් දෙන්න පිටත් උනා .
+# gloss = flags in charge emissary city(HON-SG-DAT) go(PP) queen (HIN-PL-DAT)-and citizens (DAT)-and war results inform(INF) leave (PAST)
+# translation = The royal emissary in charge of flags left for the royal city to announce the result of the battle to the queens as well as the citizens.
+1	කොඩි	කොඩි	NOUN	_	_	2	compound	_	_
+2	බාර	බාර	NOUN	_	_	3	compound	_	_
+3	පණිවිඩකාරයා	පණිවිඩකාරයා	NOUN	_	Case=Nom|Definite=Def|Number=Sing	14	nsubj	_	_
+4	පුරවරයට	පුරවර	NOUN	_	Case=Dat|Number=Sing	5	obl	_	_
+5	ගිහින්	යන්න	VERB	_	Tense=Past|VerbForm=Conv	14	advcl	_	_
+6	බිසෝවරුන්ටත්	බිසෝවරු	NOUN	_	Case=Dat|Number=Plur	12	iobj	_	_
+7	රට	රට	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
+8	වැසියන්ටත්	වැසියන්	NOUN	_	Case=Dat|Number=Plur	12	iobj	_	_
+9	යුද්ධේ	යුද්ධය	NOUN	_	Case=Loc|Definite=Def|Number=Sing	10	nmod	_	_
+10	ප්‍රතිඵල	ප්‍රතිඵල	NOUN	_	Case=Acc|Number=Plur	12	obj	_	_
+11	දැනුම්	දැනුම්	NOUN	_	Case=Acc|Number=Plur	12	compound	_	_
+12	දෙන්න	දෙන්න	VERB	_	VerbForm=Inf	14	xcomp	_	_
+13	පිටත්	පිටත්	ADV	_	_	14	compound:lvc	_	_
+14	උනා	වෙන්න	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 21
+# text = පණිවිඩකාරයා අතරමගදි රා පොලක නතර වෙලා රා බීලා වෙරි උනා .
+# original_text = පණිවිඩකාරයා අතරමගදි රා පොලක නතර වෙලා රා බීලා වෙරි උනා .
+# gloss = messenger on the way toddy-booth (INDF-LOC) stop (PP) toddy drink (PP) be drunk (PAST)
+# translation = On the way, the messenger stopped at a toddy booth, drank toddy and got drunk.
+1	පණිවිඩකාරයා	පණිවිඩකාරයා	NOUN	_	Case=Nom|Definite=Def|Number=Sing	10	nsubj	_	_
+2	අතරමගදි	අතරමග	NOUN	_	Case=Loc|Number=Sing	10	obl	_	_
+3	රා	රා	NOUN	_	Case=Nom|Number=Sing	4	compound	_	_
+4	පොලක	පොල	NOUN	_	Case=Loc|Definite=Ind|Number=Sing	6	obl	_	_
+5	නතර	නතර	VERB	_	VerbForm=Part	6	compound:lvc	_	_
+6	වෙලා	වෙන්න	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+7	රා	රා	NOUN	_	Case=Acc|Number=Sing	8	obj	_	_
+8	බීලා	බොන්න	VERB	_	Tense=Past|VerbForm=Conv	10	advcl	_	_
+9	වෙරි	වෙරි	ADJ	_	Degree=Pos	10	xcomp	_	_
+10	උනා	වෙන්න	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 22
+# text = විහිළුවක් කරන්න හිතාගෙන මිනිහා කළු කොඩිය ඉස්සුවා .
+# original_text = විහිළුවක් කරන්න හිතාගෙන මිනිහා කළු කොඩිය ඉස්සුවා .
+# gloss = joke (INDF) do (INF)    think (REFI - PP)   man     black   flag    raise (PAST)
+# translation = Thinking to make fun, he raised the black flag.
+1	විහිළුවක්	විහිළුව	NOUN	_	Case=Acc|Definite=Ind|Number=Sing	2	obj	_	_
+2	කරන්න	කර	VERB	_	VerbForm=Inf	3	xcomp	_	_
+3	හිතාගෙන	හිතා	VERB	_	VerbForm=Part	7	advcl	_	_
+4	මිනිහා	මිනිහා	NOUN	_	Case=Nom|Definite=Def|Number=Sing	7	nsubj	_	_
+5	කළු	කළු	NOUN	_	Degree=Pos	6	amod	_	_
+6	කොඩිය	කොඩිය	NOUN	_	Case=Acc|Definite=Def|Number=Sing	7	obj	_	_
+7	ඉස්සුවා	උස්සා	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 23
+# text = කළු කොඩිය දැකපු බිසෝවරු හිතුවා රජතුමා යුද්ධෙන් පරාද උනයි කියලා .
+# original_text = කළු කොඩිය   දැකපු බිසෝවරු හිතුවා රජතුමා යුද්ධෙන් පරාද උනයි කියලා .
+# gloss = black   flag    see (PT)    queen (HON-PL)  think (PAST)    king        battle (ABL)    be  defeated (PAST-AM)  that
+# translation = Seeing the black flag, the queens thought that the king was defeated in the battle.
+1	කළු	කළු	NOUN	_	Degree=Pos	2	amod	_	_
+2	කොඩිය	කොඩිය	NOUN	_	Case=Acc|Definite=Def|Number=Sing	3	obj	_	_
+3	දැකපු	දැක	VERB	_	Tense=Past|VerbForm=Part	4	acl	_	_
+4	බිසෝවරු	බිසෝවරු	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
+5	හිතුවා	හිතා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	රජතුමා	රජතුමා	NOUN	_	Case=Nom|Definite=Def|Number=Sing	9	nsubj	_	_
+7	යුද්ධෙන්	යුද්ධ	NOUN	_	Case=Abl|Number=Sing	9	obl	_	_
+8	පරාද	පරාද	NOUN	_	Case=Abl|Number=Sing	9	xcomp	_	_
+9	උනයි	උන	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+10	කියලා	කිය	SCONJ	_	_	9	mark	_	_
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 24
+# text = අනේ ! බිසෝවරු හැට පස් දෙනාම බැළුම්ගලෙන් පැනලා සිය දිවි නසා ගත්තා .
+# original_text = අනේ !   බිසෝවරු හැට පස් දෙනාම බැළුම්ගලෙන් පැනලා     සිය දිවි නසා ගත්තා .
+# gloss = Alas !  Queen (HON-PL)  sixty   five    people (EM) lookout-rock (ABL)  jump (PP)   commit suicide (PAST)
+# translation = Alas ! All the sixty-five queens jumped off the lookout rock and committed suicide.
+1	අනේ	අනේ	INTJ	_	_	12	discourse	_	_
+2	!	!	PUNCT	_	_	12	punct	_	_
+3	බිසෝවරු	බිසෝවරු	NOUN	_	Case=Nom|Number=Plur	12	nsubj	_	_
+4	හැට	හැට	NUM	_	NumType=Card	3	nummod	_	_
+5	පස්	පස්	NUM	_	NumType=Card	3	nummod	_	_
+6	දෙනාම	දෙනා	NOUN	_	Animacy=Hum|Case=Nom|Number=Plur	3	clf	_	_
+7	බැළුම්ගලෙන්	බැළුම්ගල	PROPN	_	Case=Abl|Number=Sing	8	obl	_	_
+8	පැනලා	පැන	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Part	12	advcl	_	_
+9	සිය	සිය	PRON	_	Poss=Yes|PronType=Prs	10	det	_	_
+10	දිවි	දිවි	NOUN	_	Animacy=Hum|Case=Acc|Number=Plur	12	obj	_	_
+11	නසා	නස	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Part	12	compound:lvc	_	_
+12	ගත්තා	ගන්න	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 25
+# text = සටනින් ජය අරන් රාජ පෙරහැරෙන් මාලිගාවට ආපු රජතුමා මේ විනාසේ දැකලා කම්පාවෙලා ගලෙන් පැනලා සිය දිවි නසා ගත්තා .
+# original_text = සටනින්  ජය අරන් රාජ පෙරහැරෙන් මාලිගාවට ආපු රජතුමා මේ විනාසේ දැකලා කම්පාවෙලා ගලෙන් පැනලා සිය දිවි නසා ගත්තා .
+# gloss = battle (ABL)    win (PP)    royal   procession (INS)    palace (DAT)    come (PTAD)     king        this    disaster    see (PP)    be shocked (PP) rock (ABL)  jump (PP)   commit suicide (PAST).
+# translation = The victorious king returned to the palace with pomp and ceremony but was shocked to see this disaster and jumped off the rock committing suicide.
+1	සටනින්	සටන	NOUN	_	Case=Abl|Number=Sing	2	nmod	_	_
+2	ජය	ජය	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
+3	අරන්	අර	VERB	_	VerbForm=Conv	18	advcl	_	_
+4	රාජ	රාජ	NOUN	_	Number=Sing	5	amod	_	_
+5	පෙරහැරෙන්	පෙරහැර	NOUN	_	Case=Ins|Number=Sing	7	obl	_	_
+6	මාලිගාවට	මාලිගාව	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
+7	ආපු	ආ	VERB	_	Tense=Past|VerbForm=Part	8	acl	_	_
+8	රජතුමා	රජතුමා	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+9	මේ	මේ	PRON	_	PronType=Dem	10	det	_	_
+10	විනාසේ	විනාස	NOUN	_	Case=Acc|Number=Sing	11	obj	_	_
+11	දැකලා	දැක	VERB	_	VerbForm=Conv	18	advcl	_	_
+12	කම්පාවෙලා	කම්පා	VERB	_	Aspect=Perf|VerbForm=Part	18	advcl	_	_
+13	ගලෙන්	ගල	NOUN	_	Case=Abl|Number=Sing	14	obl	_	_
+14	පැනලා	පැන	VERB	_	VerbForm=Conv	18	advcl	_	_
+15	සිය	සිය	PRON	_	Poss=Yes|PronType=Prs	16	det	_	_
+16	දිවි	දිවි	NOUN	_	Animacy=Hum|Case=Acc|Number=Plur	18	obj	_	_
+17	නසා	නස	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Part	18	compound:lvc	_	_
+18	ගත්තා	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 26
+# text = එදා මාළිගාවේ ඉතුරු උනේ බිළිඳු පුත් කුමාරා විතරයි .
+# original_text = එදා     මාළිගාවේ ඉතුරු උනේ බිළිඳු පුත් කුමාරා විතරයි .
+# gloss = that day    palace (LOC)    be left (PT-FOC)    baby        son     prince      only
+# translation = On that day only the baby prince was left alone in the palace.
+1	එදා	එදා	NOUN	_	Case=Loc	4	obl:tmod	_	_
+2	මාළිගාවේ	මාළිගාව	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
+3	ඉතුරු	ඉතුරු	VERB	_	VerbForm=Part	4	compound:lvc	_	_
+4	උනේ	වුන	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	බිළිඳු	බිළිඳු	NOUN	_	Number=Sing	6	compound	_	_
+6	පුත්	පුත්‍ර	NOUN	_	Gender=Masc|Number=Sing	7	compound	_	_
+7	කුමාරා	කුමර	NOUN	_	Animacy=Hum|Gender=Masc|Number=Sing	4	nsubj	_	_
+8	විතරයි	විතර	PART	_	_	4	advmod	_	_
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 27
+# text = වාසනාවට එතෙන්ට ආපු මාළිගාවේ රෙදි නැන්දා පුංචි කුමාරයාව දැක්කා .
+# original_text = වාසනාවට එතෙන්ට ආපු මාළිගාවේ රෙදි නැන්දා පුංචි කුමාරයාව දැක්කා .
+# gloss = fortunately     there (DAT) come (PTAD) palace (LOC)    laundress       little  prince (ACC)    see (PAST)
+# translation = Fortunately, the laundress of the palace arrived there in time and saw the little prince..
+1	වාසනාවට	වාසනාව	ADV	_	_	9	advmod	_	_
+2	එතෙන්ට	එතන	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
+3	ආපු	ආ	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Part	6	acl	_	_
+4	මාළිගාවේ	මාළිගාව	NOUN	_	Case=Loc|Number=Sing	6	nmod	_	_
+5	රෙදි	රෙදි	NOUN	_	Number=Sing	6	compound	_	_
+6	නැන්දා	නැන්දා	NOUN	_	Animacy=Hum|Gender=Fem|Number=Sing	9	nsubj	_	_
+7	පුංචි	පුංචි	ADJ	_	Degree=Pos	8	amod	_	_
+8	කුමාරයාව	කුමාරයා	NOUN	_	Animacy=Hum|Case=Acc|Number=Sing	9	obj	_	_
+9	දැක්කා	දැක	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 28
+# text = රෙදි නැන්දා දරුවාව රෙදි කඩක ඔතාගෙන හංගගෙන මාළිගාවෙන් පැනලා ගියා .
+# original_text = රෙදි නැන්දා දරුවාව රෙදි කඩක ඔතාගෙන හංගගෙන   මාළිගාවෙන්  පැනලා ගියා .
+# gloss = laundress child (ACC)     piece of cloth (INDF-LOC)   wrap up (REFL-PP)   hide (REFL-PP)  palace (ABL)    flee (PP)   go (PAST)
+# translation = Having hurriedly wrapped the child in a cloth she concealed it and fled from the palace
+1	රෙදි	රෙදි	NOUN	_	Number=Sing	2	compound	_	_
+2	නැන්දා	නැන්දා	NOUN	_	Animacy=Hum|Gender=Fem|Number=Sing	10	nsubj	_	_
+3	දරුවාව	දරුවා	NOUN	_	Animacy=Hum|Case=Acc|Number=Sing	6	obj	_	_
+4	රෙදි	රෙදි	NOUN	_	Number=Plur	5	compound	_	_
+5	කඩක	කඩ	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
+6	ඔතාගෙන	ඔතා	VERB	_	VerbForm=Part	10	advcl	_	_
+7	හංගගෙන	හංග	VERB	_	VerbForm=Part	10	advcl	_	_
+8	මාළිගාවෙන්	මාළිගාව	NOUN	_	Case=Abl|Number=Sing	9	obl	_	_
+9	පැනලා	පැන	VERB	_	Aspect=Perf|VerbForm=Part	10	advcl	_	_
+10	ගියා	යන	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 29
+# text = එදා රෙදි නැන්දා දරුවාව හංගපු තැන හැංගවත්ත නමින් ප්‍රසිද්ධ උනා .
+# original_text = එදා         රෙදි නැන්දා         දරුවාව      හංගපු       තැන     හැංගවත්ත        නමින්       ප්‍රසිද්ධ උනා .
+# gloss = that day    laundress       child (ACC) hide (PT)   place   Hengawatta      name (INS)  be known (PAST)
+# translation = The place she hid the baby on that day became known as Henga-watta ('Hide-yard').
+1	එදා	එදා	ADV	_	_	5	advmod	_	_
+2	රෙදි	රෙදි	NOUN	_	Number=Plur	3	compound	_	_
+3	නැන්දා	නැන්දා	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	දරුවාව	දරුවා	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
+5	හංගපු	හංග	VERB	_	Tense=Past|VerbForm=Part	6	acl	_	_
+6	තැන	තැන	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
+7	හැංගවත්ත	හැංගවත්ත	PROPN	_	Number=Sing	9	obl	_	_
+8	නමින්	නම	NOUN	_	Case=Ins|Number=Sing	7	case	_	_
+9	ප්‍රසිද්ධ	ප්‍රසිද්ධ	ADJ	_	_	10	xcomp	_	_
+10	උනා	වෙන්න	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 30
+# text = අන්තිමට කළුන්දෑවේ ගමරාළ අතට ළමයව ගියා .
+# original_text = අන්තිමට     කළුන්දෑවේ       ගමරාළ               අතට         ළමයව            ගියා .
+# gloss = finally     kalundewe       village headman     hand (DAT)  child (ACC)     go (PAST)
+# translation = Eventually, the child came into the posession of the village headman of the Kalundewa.
+1	අන්තිමට	අන්තිම	ADV	_	_	6	advmod	_	_
+2	කළුන්දෑවේ	කළුන්දෑවේ	PROPN	_	Case=Loc	3	nmod	_	_
+3	ගමරාළ	ගමරාළ	NOUN	_	Gender=Masc|Number=Sing	4	nmod:poss	_	_
+4	අතට	අත	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
+5	ළමයව	ළමය	NOUN	_	Case=Acc|Number=Sing	6	nsubj	_	_
+6	ගියා	යා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 31
+# text = ළමයා අප්පුවා කියන නමින් සාමාන්‍ය ගමේ ළමයෙක් හැටියට හදා වඩා ගත්තා .
+# original_text = ළමයා    අප්පුවා     කියන    නමින්       සාමාන්‍ය    ගමේ             ළමයෙක්      හැටියට      හදා වඩා ගත්තා .
+# gloss = child   Appuwa  called  name (INS)  ordinary    village (LOC)   child (INDF)    as          bring up (PAST)
+# translation = The child was named Appuwa and was brought up as an ordinary village boy.
+1	ළමයා	ළමයා	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
+2	අප්පුවා	අප්පුවා	PROPN	_	_	11	obl	_	_
+3	කියන	කිය	VERB	_	Tense=Pres|VerbForm=Part	2	acl	_	_
+4	නමින්	නම	NOUN	_	Case=Ins|Number=Sing	2	case	_	_
+5	සාමාන්‍ය	සාමාන්‍ය	ADJ	_	_	7	amod	_	_
+6	ගමේ	ගම	NOUN	_	Case=Loc|Number=Sing	7	nmod	_	_
+7	ළමයෙක්	ළමයා	NOUN	_	_	11	obl	_	_
+8	හැටියට	හැටිය	NOUN	_	Case=Dat|Number=Sing	7	case	_	_
+9	හදා	හදන	VERB	_	Aspect=Perf|VerbForm=Part	11	compound:lvc	_	_
+10	වඩා	වඩන	VERB	_	Aspect=Perf|VerbForm=Part	11	compound:lvc	_	_
+11	ගත්තා	ගන්න	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 32
+# text = කාලයක් යන කොට අප්පුවා හැඩි දැඩි තරුණයෙක් උනා .
+# original_text = කාලයක්  යන  කොට     අප්පුවා         හැඩි දැඩි   තරුණයෙක්        උනා .
+# gloss = time (INDF) go      when    Appuwa      robust      youth (INDF)    become (PAST)
+# translation = Some years passed and Appuwa grew up to be a robust young man.
+1	කාලයක්	කාලය	NOUN	_	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	_
+2	යන	යන්න	VERB	_	VerbForm=Part	8	advcl	_	_
+3	කොට	කොට	SCONJ	_	_	2	mark	_	_
+4	අප්පුවා	අප්පුවා	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	හැඩි	හැඩි	ADJ	_	_	7	amod	_	_
+6	දැඩි	දැඩි	ADJ	_	_	7	amod	_	_
+7	තරුණයෙක්	තරුණයා	NOUN	_	Case=Nom|Definite=Ind|Number=Sing	8	xcomp	_	_
+8	උනා	වෙන්න	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 33
+# text = ඔය ගමරාළට දූලා දෙන්නෙක් හිටියා .
+# original_text = ඔය  ගමරාළට              දූලා            දෙන්නෙක්    හිටියා .
+# gloss = that    village headman (DAT)   daughter (PL)   two (INDF)  be (PAST)
+# translation = The village headman had two daughters.
+1	ඔය	ඔය	PRON	_	PronType=Dem	2	det	_	_
+2	ගමරාළට	ගමරාළ	NOUN	_	Case=Dat|Number=Sing	5	iobj	_	_
+3	දූලා	දුව	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	දෙන්නෙක්	දෙදෙනා	NUM	_	_	3	nummod	_	_
+5	හිටියා	සිටිනවා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 34
+# text = වැඩිමල් දුව කළු එතනා , බාල දුව සිරිමල් එතනා .
+# original_text = වැඩිමල්         දුව             කළු එතනා ,       බාල         දුව             සිරිමල් එතනා .
+# gloss = elder       daughter    Kalu Ethana     younger     daughter    Sirimal Ethana
+# translation = The elder daughter was Kalu Ethana and the younger daughter was Sirimal Ethana.
+1	වැඩිමල්	වැඩිමල්	ADJ	_	_	2	amod	_	_
+2	දුව	දුව	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	කළු	කළු	ADJ	_	_	4	amod	_	_
+4	එතනා	එතනා	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	බාල	බාල	ADJ	_	Degree=Pos	7	amod	_	_
+7	දුව	දුව	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	සිරිමල්	සිරිමල්	PROPN	_	Number=Sing	9	compound	_	_
+9	එතනා	එතනා	PROPN	_	Gender=Fem|Number=Sing	4	conj	_	_
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 35
+# text = කළු එතනා සැරයි . බාල දුව සිරිමල් එතනා අප්පුවාට කරුණාවන්තයි .
+# original_text = කළු     එතනා    සැරයි .      බාල     දුව             සිරිමල්     එතනා    අප්පුවාට        කරුණාවන්තයි .
+# gloss = Kalu    Ethana  rough (AM)  younger daughter    Sirimal Ethana  Appuwa (DAT)    kind
+# translation = The elder daughter, Kalu Ethana, was rude to Appuwa, while the younger daughter, Sirimal Ethana, was kind to him.
+1	කළු	කළු	ADJ	_	_	2	amod	_	_
+2	එතනා	එතනා	PROPN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	සැරයි	සැර	ADJ	_	Degree=Pos	10	parataxis	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+5	බාල	බාල	ADJ	_	Degree=Pos	6	amod	_	_
+6	දුව	දුව	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+7	සිරිමල්	සිරිමල්	PROPN	_	Number=Sing	6	appos	_	_
+8	එතනා	එතනා	PROPN	_	Gender=Fem|Number=Sing	7	flat:name	_	_
+9	අප්පුවාට	අප්පුවා	PROPN	_	Case=Dat|Number=Sing	10	obl	_	_
+10	කරුණාවන්තයි	කරුණාවන්ත	ADJ	_	Degree=Pos	0	root	_	_
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 36
+# text = සිරිමල් එතනා අප්පුවාට නිතරම ගෞරවයෙන් සැලකුවා .
+# original_text = සිරිමල්     එතනා    අප්පුවාට        නිතරම       ගෞරවයෙන්        සැලකුවා .
+# gloss = Sirimal Ethana  Appuwa (DAT)    always      respect (INS)   treat (PAST)
+# translation = Sirimal Ethana always treated Appuwa with respect.
+1	සිරිමල්	සිරිමල්	PROPN	_	Number=Sing	6	nsubj	_	_
+2	එතනා	එතනා	PROPN	_	Gender=Fem|Number=Sing	1	flat:name	_	_
+3	අප්පුවාට	අප්පුවා	PROPN	_	Case=Dat|Number=Sing	6	iobj	_	_
+4	නිතරම	නිතරම	ADJ	_	_	6	advmod	_	_
+5	ගෞරවයෙන්	ගෞරවය	NOUN	_	Case=Ins|Number=Sing	6	obl	_	_
+6	සැලකුවා	සලකනවා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 37
+# text = ඉතින් ගමරාළ සිරිමල් එතනාව අප්පුවාට බන්දලා දුන්නා .
+# original_text = ඉතින්   ගමරාළ          සිරිමල්     එතනාව           අප්පුවාට        බන්දලා      දුන්නා .
+# gloss = so      village headman     Sirimal Ethana (ACC)    Appuwa (DAT)    marry (PP)  give (PAST)
+# translation = So the village headman married her to Appuwa.
+1	ඉතින්	ඉතින්	ADV	_	_	7	advmod	_	_
+2	ගමරාළ	ගමරාළ	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+3	සිරිමල්	සිරිමල්	PROPN	_	Number=Sing	7	obj	_	_
+4	එතනාව	එතනා	PROPN	_	Gender=Fem|Number=Sing	3	flat:name	_	_
+5	අප්පුවාට	අප්පුවා	PROPN	_	Case=Dat|Number=Sing	7	iobj	_	_
+6	බන්දලා	බඳිනවා	VERB	_	Aspect=Perf|VerbForm=Part	7	advcl	_	_
+7	දුන්නා	දෙන්න	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 38
+# text = මේ දෙන්නා බැඳලා අලුත් ගෙදරක පදිංචියට ගියා .
+# original_text = මේ      දෙන්නා      බැඳලා       අලුත්   ගෙදරක               පදිංචියට ගියා .
+# gloss = these   two people  marry (PP)  new     house (INDF-LOC)    settle down (PAST)
+# translation = After their marriage, Appuwa and Sirimal Ethana settled down in a new house.
+1	මේ	මේ	PRON	_	PronType=Dem	2	det	_	_
+2	දෙන්නා	දෙන්නා	NOUN	_	Number=Plur	7	nsubj	_	_
+3	බැඳලා	බඳිනවා	VERB	_	Aspect=Perf|VerbForm=Part	7	advcl	_	_
+4	අලුත්	අලුත්	ADJ	_	Degree=Pos	5	amod	_	_
+5	ගෙදරක	ගෙදර	NOUN	_	Case=Loc|Definite=Ind|Number=Sing	7	obl	_	_
+6	පදිංචියට	පදිංචිය	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
+7	ගියා	යනවා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 39
+# text = ගමරාළගෙන් ඔවුන්ට ඉඩමකුයි කුඹුරකුයි හම්බ උනා .
+# original_text = ගමරාළගෙන්               ඔවුන්ට      ඉඩමකුයි         කුඹුරකුයි           හම්බ උනා .
+# gloss = village headman (ABL)   them (DAT)  land and (INDF) field and (INDF)    be received (PAST)
+# translation = They received a plot of land and a rice field from the village headman.
+1	ගමරාළගෙන්	ගමරාළ	NOUN	_	Case=Abl|Number=Sing	6	obl	_	_
+2	ඔවුන්ට	ඔවුන්	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	6	iobj	_	_
+3	ඉඩමකුයි	ඉඩම	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
+4	කුඹුරකුයි	කුඹුර	NOUN	_	Case=Acc|Number=Sing	3	conj	_	_
+5	හම්බ	හම්බවෙන්න	VERB	_	Aspect=Perf|VerbForm=Part	6	compound:svc	_	_
+6	උනා	උන	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 40
+# text = මේ වෙන කොට කුරුණෑගල රාජධානිය පාලනේ කලේ වත්හිමි කුමාරයායි .
+# original_text = මේ වෙන  කොට     කුරුණෑගල    රාජධානිය        පාලනේ කලේ       වත්හිමි         කුමාරයායි .
+# gloss = this be     when    Kurunegala  kingdom         control (PT-FOC)    Wathhimi    prince (AM)
+# translation = By this time, it was prince Wathhimi that was ruling the Kurunegala kingdom.
+1	මේ	මේ	PRON	_	PronType=Dem	7	obl	_	_
+2	වෙන	වෙන	VERB	_	Tense=Pres|VerbForm=Part	7	advcl	_	_
+3	කොට	කොට	ADP	_	_	2	mark	_	_
+4	කුරුණෑගල	කුරුණෑගල	PROPN	_	_	5	compound	_	_
+5	රාජධානිය	රාජධානිය	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	පාලනේ	පාලනය	NOUN	_	Case=Nom|Number=Sing	7	obj	_	_
+7	කලේ	කල	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	වත්හිමි	වත්හිමි	PROPN	_	Gender=Masc	9	compound	_	_
+9	කුමාරයායි	කුමාරයා	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 41
+# text = අර මියගිය බුවනෙකබා රජ්ජුරුවන්ට මුස්ලිම් බිසොවක් හිටියා .
+# original_text = අර      මියගිය      බුවනෙකබා    රජ්ජුරුවන්ට         මුස්ලිම්    බිසොවක්         හිටියා .
+# gloss = that    die (PT)    Buwanekaba  king (HON-DAT)  Muslim  queen (INDF)    be  (PAST)
+# translation = The late king Buwanekaba had a queen of Muslim origin.
+1	අර	අර	PRON	_	PronType=Dem	4	det	_	_
+2	මියගිය	මියයන	VERB	_	Tense=Past|VerbForm=Part	4	acl	_	_
+3	බුවනෙකබා	බුවනෙකබා	PROPN	_	Gender=Masc	4	compound	_	_
+4	රජ්ජුරුවන්ට	රජ්ජුරුවන්	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	_
+5	මුස්ලිම්	මුස්ලිම්	ADJ	_	_	6	amod	_	_
+6	බිසොවක්	බිසොව	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	හිටියා	සිටින	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 42
+# text = ඇයට උපන් කුමාරයා තමයි වත්හිමි කියන්නේ .
+# original_text = ඇයට         උපන්    කුමාරයා     තමයි    වත්හිමි         කියන්නේ .
+# gloss = she (DAT)   born    prince      FM      Wathhimi    say (NPT-POC)
+# translation = It was the prince born to this queen that was called Wathhimi.
+1	ඇයට	ඇය	PRON	_	Case=Dat|Gender=Fem|PronType=Prs	2	iobj	_	_
+2	උපන්	උපන්	VERB	_	Tense=Past|VerbForm=Part	3	acl	_	_
+3	කුමාරයා	කුමාරයා	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	තමයි	තමයි	PART	_	_	6	discourse	_	_
+5	වත්හිමි	වත්හිමි	PROPN	_	Gender=Masc	6	obj	_	_
+6	කියන්නේ	කියන	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 43
+# text = අවාසනාවට මුස්ලිම් කුමාරයෙක් සිංහාසනේ ඉන්න එක ඇමැතිවරු රිස්සුවේ නෑ .
+# original_text = අවාසනාවට        මුස්ලිම්    කුමාරයෙක්       සිංහාසනේ        ඉන්න        එක  ඇමැතිවරු            රිස්සුවේ            නෑ .
+# gloss = bad luck (DAT)  Muslim  prince (INDF)   throne (LOC)    be (INF)    that    minister (PL-HON)   like (PT - FOC) no
+# translation = Unfortunately, his ministers didn't like the fact that a son of Muslim origin remains in the throne.
+1	අවාසනාවට	අවාසනාව	ADV	_	_	8	advmod	_	_
+2	මුස්ලිම්	මුස්ලිම්	ADJ	_	_	3	amod	_	_
+3	කුමාරයෙක්	කුමාරයා	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	සිංහාසනේ	සිංහාසන	NOUN	_	Case=Loc|Number=Sing	5	obl	_	_
+5	ඉන්න	ඉන්න	VERB	_	VerbForm=Inf	6	acl	_	_
+6	එක	එක	PRON	_	PronType=Dem	8	obj	_	_
+7	ඇමැතිවරු	ඇමැතිවරු	NOUN	_	Animacy=Hum|Case=Nom|Number=Plur	8	nsubj	_	_
+8	රිස්සුවේ	රිස්සන	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	නෑ	නෑ	AUX	_	Polarity=Neg	8	aux	_	_
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 44
+# text = කුමාරයාව මරන්න කුමන්ත්‍රණයක් දියත් කෙරුනා .
+# original_text = කුමාරයාව        මරන්න       කුමන්ත්‍රණයක්   දියත් කෙරුනා .
+# gloss = prince (ACC)    kill (INF)  plot (INDF)     launch (INVL_PAST)
+# translation = They were plotting a coup to kill the prince.
+1	කුමාරයාව	කුමාරයා	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	මරන්න	මරනවා	VERB	_	VerbForm=Inf	3	acl	_	_
+3	කුමන්ත්‍රණයක්	කුමන්ත්‍රණය	NOUN	_	Case=Nom|Definite=Ind|Number=Sing	5	nsubj	_	_
+4	දියත්	දියත්	VERB	_	Tense=Past|VerbForm=Part	5	compound:lvc	_	_
+5	කෙරුනා	කර	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 45
+# text = කුරුණෑගල ඇතුගල මුදුනේ පවත්වන පිරිත් දේශනාවකට වත්හිමි කුමාරයාට ආරාධනා කලා .
+# original_text = කුරුණෑගල    ඇතුගල           මුදුනේ      පවත්වන  පිරිත්  දේශනාවකට            වත්හිමි         කුමාරයාට            ආරාධනා කලා .
+# gloss = Kurunegala  Elephant Rock   top (LOC)   hold (NPT)  pirit   chanting (DAT)      Wathhimi    prince (DAT-TOO)    invite (PAST)
+# translation = The prince was invited to a Pirit chanting ceremony held at the top of the Elephant Rock in Kurunegala.
+1	කුරුණෑගල	කුරුණෑගල	PROPN	_	Case=Nom	2	compound	_	_
+2	ඇතුගල	ඇතුගල	PROPN	_	Case=Nom	3	compound	_	_
+3	මුදුනේ	මුදුන	NOUN	_	Case=Nom|Number=Sing	4	obl	_	_
+4	පවත්වන	පවත්වන	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	_
+5	පිරිත්	පිරිත	NOUN	_	Case=Nom|Number=Sing	6	compound	_	_
+6	දේශනාවකට	දේශනාව	NOUN	_	Case=Dat|Definite=Ind|Number=Sing	10	obl	_	_
+7	වත්හිමි	වත්හිමි	PROPN	_	Gender=Masc	8	compound	_	_
+8	කුමාරයාට	කුමාරයා	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	10	iobj	_	_
+9	ආරාධනා	ආරාධනා	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
+10	කලා	කරනවා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 46
+# text = ඇමතිවරු සැලසුම් කරලා තිබුනු විදියට ඉදගෙන හිටිය ආසනෙත් එක්කම රජතුමා ගල් පර්වතයෙන් පහලට පෙරලා දැම්මා .
+# original_text = ඇමතිවරු             සැලසුම්     කරලා    තිබුනු  විදියට          ඉදගෙන හිටිය         ආසනෙත්  එක්කම       රජතුමා      ගල් පර්වතයෙන්       පහලට        පෙරලා       දැම්මා .
+# gloss = minister (PL - HON) plan    do (PP) be (PT) way (DAT) be    seated (PT)         seat too    together    king (HON)  stone rock (ABL)    below (DAT) push (PP)   put (PAST)
+# translation = As had been plotted by the ministers, the king was pushed off the rock together with the seat he was sitting.
+1	ඇමතිවරු	ඇමතිවරයා	NOUN	_	Number=Plur	4	nsubj	_	_
+2	සැලසුම්	සැලසුම්	NOUN	_	Case=Nom|Number=Plur	4	obj	_	_
+3	කරලා	කරනවා	VERB	_	Aspect=Perf|VerbForm=Part	4	advcl	_	_
+4	තිබුනු	තිබෙන	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Part	5	acl	_	_
+5	විදියට	විදිය	NOUN	_	Case=Dat|Number=Sing	15	obl	_	_
+6	ඉදගෙන	ඉඳගන්න	VERB	_	Aspect=Prog|Mood=Ind|VerbForm=Fin	7	compound:lvc	_	_
+7	හිටිය	හිටියා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl	_	_
+8	ආසනෙත්	ආසන	NOUN	_	Case=Nom|Number=Sing	15	obl	_	_
+9	එක්කම	එක්ක	ADP	_	_	8	case	_	_
+10	රජතුමා	රජතුමා	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	15	obj	_	_
+11	ගල්	ගල	NOUN	_	Case=Nom|Number=Plur	12	compound	_	_
+12	පර්වතයෙන්	පර්වතය	NOUN	_	Case=Abl|Number=Sing	15	obl	_	_
+13	පහලට	පහල	ADV	_	_	15	advmod	_	_
+14	පෙරලා	පෙරලනවා	VERB	_	Aspect=Perf|VerbForm=Part	15	compound:lvc	_	_
+15	දැම්මා	දමනවා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 47
+# text = වත්හිමි කුමාරයාගේ මරණෙන් පස්සේ රටේ රජකමට සුදුස්සෙක් තෝරගන්න එකයි ඊළඟ ප්‍රශ්නේ .
+# original_text = වත්හිමි         කුමාරයාගේ       මරණෙන්  පස්සේ   රටේ             රජකමට       සුදුස්සෙක්      තෝරගන්න         එකයි        ඊළඟ         ප්‍රශ්නේ .
+# gloss = Wathhimi    prince (GEN)    death (ABL) after   country (LOC)   kingship (DAT)  suitable (INDF) select (INF)    one (AM)    next        question
+# translation = The next step was to find a suitable successor to the throne vacated by the death of Prince Wathhimi.
+1	වත්හිමි	වත්හිමි	PROPN	_	Gender=Masc	2	compound	_	_
+2	කුමාරයාගේ	කුමාරයා	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	_
+3	මරණෙන්	මරණ	NOUN	_	Case=Abl|Number=Sing	9	obl	_	_
+4	පස්සේ	පස්සෙ	NOUN	_	Case=Loc|Number=Sing	3	nmod	_	_
+5	රටේ	රට	NOUN	_	Case=Loc|Number=Sing	6	nmod	_	_
+6	රජකමට	රජකම	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
+7	සුදුස්සෙක්	සුදුසු	ADJ	_	Degree=Pos	8	obj	_	_
+8	තෝරගන්න	තෝරගන්න	VERB	_	VerbForm=Inf	9	xcomp	_	_
+9	එකයි	එක	PRON	_	Case=Nom|PronType=Dem	0	root	_	_
+10	ඊළඟ	ඊළඟ	ADJ	_	Degree=Pos	11	amod	_	_
+11	ප්‍රශ්නේ	ප්‍රශ්න	NOUN	_	Case=Nom|Number=Sing	9	appos	_	_
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 48
+# text = මේ කාරිය බාර උනේ මංගල හස්තිරාජයාටයි .
+# original_text = මේ      කාරිය   බාර උනේ             මංගල        හස්තිරාජයාටයි .
+# gloss = this    task    be entrusted (FOC)  auspicious  royal elephant (DAT-AM)
+# translation = It was the royal elephant that the task was entrusted to.
+1	මේ	මේ	PRON	_	PronType=Dem	2	det	_	_
+2	කාරිය	කාරිය	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+3	බාර	බාර	NOUN	_	Case=Nom|Number=Sing	4	compound:lvc	_	_
+4	උනේ	වුන	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	මංගල	මංගල	ADJ	_	_	6	amod	_	_
+6	හස්තිරාජයාටයි	හස්තිරාජයා	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 49
+# text = රජවාසල මඟුල් ඇතා කවුරුහරි ඉදිරියේ දණ ගහලා වැන්දොත් ඒ තැනැත්තා රටේ රජකමට පත් වෙනවා කියලා සම්ප්‍රදායක් ඒ කාලේ තිබුණා .
+# original_text = රජවාසල      මඟුල් ඇතා       කවුරුහරි    ඉදිරියේ         දණ ගහලා         වැන්දොත්        ඒ තැනැත්තා  රටේ             රජකමට       පත් වෙනවා           කියලා   සම්ප්‍රදායක්            ඒ       කාලේ        තිබුණා .
+# gloss = royal palace    royal elephant  somebody    before      kneel down (PP) greet (COND)    that person     country (LOC)   kingship (DAT)  be appointed (IND)  that    tradition (INDF)    that    time (LOC)  be (PAST)
+# translation = Tradition goes that the person before whom the royal elephant would kneel down and greet him is to be crowned king.
+1	රජවාසල	රජවාසල	NOUN	_	Case=Loc|Number=Sing	8	obl	_	_
+2	මඟුල්	මඟුල්	ADJ	_	Degree=Pos	3	amod	_	_
+3	ඇතා	ඇතා	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+4	කවුරුහරි	කවුරුහරි	PRON	_	PronType=Ind	5	nmod	_	_
+5	ඉදිරියේ	ඉදිරිය	NOUN	_	Case=Loc	8	obl	_	_
+6	දණ	දණ	NOUN	_	Case=Nom|Number=Sing	7	obj	_	_
+7	ගහලා	ගහලා	VERB	_	Aspect=Perf|VerbForm=Part	8	advcl	_	_
+8	වැන්දොත්	වඳිනවා	VERB	_	Mood=Ind|VerbForm=Fin	14	advcl	_	_
+9	ඒ	ඒ	PRON	_	PronType=Dem	10	det	_	_
+10	තැනැත්තා	තැනැත්තා	NOUN	_	Case=Nom|Number=Sing	14	nsubj	_	_
+11	රටේ	රට	NOUN	_	Case=Loc|Number=Sing	12	nmod	_	_
+12	රජකමට	රජකම	NOUN	_	Case=Dat|Number=Sing	14	obl	_	_
+13	පත්	පත්	VERB	_	VerbForm=Inf	14	compound:lvc	_	_
+14	වෙනවා	වෙන	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl	_	_
+15	කියලා	කියලා	SCONJ	_	_	14	mark	_	_
+16	සම්ප්‍රදායක්	සම්ප්‍රදාය	NOUN	_	Case=Nom|Number=Sing	19	nsubj	_	_
+17	ඒ	ඒ	PRON	_	PronType=Dem	18	det	_	_
+18	කාලේ	කාල	NOUN	_	Case=Loc|Number=Sing	19	obl	_	_
+19	තිබුණා	තියෙනවා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 50
+# text = ඇමැතිවරු පැරණි චාරිත්‍රේ හැටියට වැඩකලා .
+# original_text = ඇමැතිවරු            පැරණි   චාරිත්‍රේ       හැටියට      වැඩකලා .
+# gloss = minister (PL - HON) ancient custom      way (DAT)   work (PAST)
+# translation = The ministers followed the procedures laid down by the ancient custom.
+1	ඇමැතිවරු	ඇමැතිවරයා	NOUN	_	Animacy=Hum|Case=Nom|Number=Sing	5	nsubj	_	_
+2	පැරණි	පැරණි	ADJ	_	Degree=Pos	3	amod	_	_
+3	චාරිත්‍රේ	චාරිත්‍රය	NOUN	_	Case=Ins|Number=Sing	5	obl	_	_
+4	හැටියට	හැටි	NOUN	_	Case=Dat|Number=Sing	5	obl	_	_
+5	වැඩකලා	වැඩ	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 51
+# text = මඟුල් ඇතා සරසලා බෙර සක් හඬ මැද්දේ පෙරහැරේ යැව්වා .
+# original_text = මඟුල්   ඇතා         සරසලා           බෙර     සක්     හඬ  මැද්දේ      පෙරහැරේ             යැව්වා .
+# gloss = royal   elephant    decorate (PP)   drum    conch   sound   midst       procession (LOC)    go (CAUS - PAST)
+# translation = They decorated the royal elephant and dispatched him in procession amidst the sound of drums and conch.
+1	මඟුල්	මඟුල්	ADJ	_	Degree=Pos	2	amod	_	_
+2	ඇතා	ඇතා	NOUN	_	Animacy=Anim|Case=Nom|Number=Sing	9	nsubj	_	_
+3	සරසලා	සරසනවා	VERB	_	Aspect=Perf|VerbForm=Part	9	advcl	_	_
+4	බෙර	බෙර	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+5	සක්	සක්	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+6	හඬ	හඬ	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	මැද්දේ	මැද	NOUN	_	Case=Loc|Number=Sing	9	obl	_	_
+8	පෙරහැරේ	පෙරහැර	NOUN	_	Case=Loc|Number=Sing	9	obl	_	_
+9	යැව්වා	යවන	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 52
+# text = එදා අප්පුවා කුඹුරේ වැඩ .
+# original_text = එදා         අප්පුවා     කුඹුරේ              වැඩ .
+# gloss = that day    Appuwa  rice field (LOC)    work
+# translation = On that day Appuwa was working in his rice field
+1	එදා	එදා	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
+2	අප්පුවා	අප්පුවා	PROPN	_	Animacy=Anim|Number=Sing	4	nsubj	_	_
+3	කුඹුරේ	කුඹුර	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
+4	වැඩ	වැඩ	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 53
+# text = රන්බමරකෙත කියන කුඹුර හානවා .
+# original_text = රන්බමරකෙත   කියන    කුඹුර    හානවා .
+# gloss = Ranbamaraketa   called  rice field  plough (IND)
+# translation = He was ploughing the rice field called Ranbamaraketa.
+1	රන්බමරකෙත	රන්බමරකෙත	PROPN	_	Number=Sing	3	compound	_	_
+2	කියන	කියන	VERB	_	VerbForm=Part	3	acl	_	_
+3	කුඹුර	කුඹුර	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	හානවා	හානවා	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 54
+# text = සිරිමල් එතනා දවල් ඇඹුල ගෙනාවා .
+# original_text = සිරිමල් එතනා    දවල්    ඇඹුල        ගෙනාවා .
+# gloss = Sirimal Ethana  day     pot meal    bring (PAST)
+# translation = Sirimal Ethana brought the pot meal (to the rice field).
+1	සිරිමල්	සිරිමල්	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+2	එතනා	එතනා	NOUN	_	Gender=Fem|Number=Sing	1	flat:name	_	_
+3	දවල්	දවල්	NOUN	_	Case=Nom|Number=Sing	4	compound	_	_
+4	ඇඹුල	ඇඹුල	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
+5	ගෙනාවා	ගෙන	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 55
+# text = අප්පුවා දවල් කෑම අරන් මහන්සිය නිවා ගන්න බිරිඳගේ උකුලේ ඔලුව තියාගෙන ටිකක් නිදාගත්තා .
+# original_text = අප්පුවා     දවල්    කෑම     අරන්        මහන්සිය     නිවා ගන්න       බිරිඳගේ             උකුලේ       ඔලුව    තියාගෙන         ටිකක්       නිදාගත්තා .
+# gloss = Appuwa  day     meal    take (PP)   fatigue     get over (INF)  wife (GEN)      lap (LOC)   head    lay (REFL - PP) a little    sleep (REFL - past)
+# translation = After having had his lunch, Appuwa slept a little with his head on his wife's lap to get over his fatigue.
+1	අප්පුවා	අප්පුවා	PROPN	_	Animacy=Hum|Gender=Masc	13	nsubj	_	_
+2	දවල්	දවල්	NOUN	_	Case=Nom|Number=Sing	3	compound	_	_
+3	කෑම	කෑම	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	අරන්	අරගන්නවා	VERB	_	Aspect=Perf|VerbForm=Part	13	advcl	_	_
+5	මහන්සිය	මහන්සිය	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
+6	නිවා	නිවන	VERB	_	VerbForm=Inf	7	xcomp	_	_
+7	ගන්න	ගන්න	VERB	_	VerbForm=Inf	13	xcomp	_	_
+8	බිරිඳගේ	බිරිඳ	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	9	nmod:poss	_	_
+9	උකුලේ	උකුල	NOUN	_	Case=Loc|Number=Sing	11	obl	_	_
+10	ඔලුව	ඔලුව	NOUN	_	Case=Loc|Number=Sing	11	obj	_	_
+11	තියාගෙන	තියාගන්න	VERB	_	Aspect=Perf|VerbForm=Part	13	advcl	_	_
+12	ටිකක්	ටිකක්	ADV	_	_	13	advmod	_	_
+13	නිදාගත්තා	නිදාගන්න	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 56
+# tetx = Tika welaawakin appuwaa hiinayak dhakkaa .
+# original_text = ටික     වෙලාවකින්           අප්පුවා     හීනයක්          දැක්කා .
+# gloss = little  time (INDF - INS)   Appuwa  dream (INDF)    see (PAST)
+# translation = After a while Appuwa saw a dream.
+# text = ටික වෙලාවකින් අප්පුවා හීනයක් දැක්කා .
+1	ටික	ටික	DET	_	PronType=Ind	2	det	_	_
+2	වෙලාවකින්	වෙලාව	NOUN	_	Case=Ins|Number=Sing	5	obl	_	_
+3	අප්පුවා	අප්පුවා	PROPN	_	Animacy=Hum|Gender=Masc	5	nsubj	_	_
+4	හීනයක්	හීනය	NOUN	_	Case=Acc|Definite=Ind|Number=Sing	5	obj	_	_
+5	දැක්කා	දකිනවා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 57
+# text = නඟුලේ මීයක් බැඳලා .
+# original_text = නඟුලේ           මීයක්           බැඳලා .
+# gloss = plaugh (LOC)    bee hive (INDF) build (PP)
+# traslation = There was a bee hive built on his plough.
+1	නඟුලේ	නඟුල	NOUN	_	Case=Loc	3	obl	_	_
+2	මීයක්	මීය	NOUN	_	Case=Nom|Definite=Ind|Number=Sing	3	nsubj	_	_
+3	බැඳලා	බඳිනවා	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 58
+# text = අප්පුවා ඉක්මනට නැගිටලා සිරිමල් එතනාට හීනේ ගැන කිව්වා .
+# original_text = අප්පුවා     ඉක්මනට  නැගිටලා         සිරිමල් එතනාට           හීනේ    ගැන     කිව්වා .
+# gloss = Appuwa  suddenly    wake up (PP)    Sirimal Ethana (DAT)    dream   about   tell (PAST)
+# translation = Suddenly Appuwa awakened from his nap and told his wife about the dream.
+1	අප්පුවා	අප්පුවා	PROPN	_	Animacy=Hum|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	ඉක්මනට	ඉක්මන	ADV	_	_	8	advmod	_	_
+3	නැගිටලා	නැගිටිනවා	VERB	_	Aspect=Perf|VerbForm=Part|Voice=Act	8	advcl	_	_
+4	සිරිමල්	සිරිමල්	PROPN	_	Animacy=Hum|Number=Sing	5	nmod	_	_
+5	එතනාට	එතනා	PROPN	_	Animacy=Hum|Case=Dat|Number=Sing	8	iobj	_	_
+6	හීනේ	හීන	NOUN	_	Case=Nom|Definite=Def|Number=Sing	8	obl	_	_
+7	ගැන	ගැන	ADP	_	_	6	case	_	_
+8	කිව්වා	කියනවා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 59
+# text = සිරිමල් එතනා හීනේ තේරුම් කලා .
+# original_text = සිරිමල් එතනා    හීනේ    තේරුම් කලා .
+# gloss = Sirimal Ethana  dream   interpret (PAST)
+# translation = Sirimal Ethana interpreted the dream.
+1	සිරිමල්	සිරිමල්	PROPN	_	Animacy=Hum|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	එතනා	එතනා	PROPN	_	Animacy=Hum|Gender=Fem|Number=Sing	1	nmod	_	_
+3	හීනේ	හීනය	NOUN	_	Case=Acc|Definite=Def|Number=Sing	5	obj	_	_
+4	තේරුම්	තේරුම	NOUN	_	Case=Nom	5	compound:lvc	_	_
+5	කලා	කරනවා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 60
+# text = " එහෙනම් කිසිම අනුමානයක් නැහැ, ඔයා රජ වෙනවා , මං අගබිසොව " කියලා සිරිමල් එතනා හිනා උනා .
+# original_text = " එහෙනම්     කිසිම   අනුමානයක්       නැහැ,   ඔයා     රජ      වෙනවා ,      මං      අගබිසොව "    කියලා       සිරිමල්     එතනා    හිනා උනා .
+# gloss = then        any     doubt (INDF)    no      you     king    become (IND)    I       top queen   say (PP)    Sirimal Ethana  laugh (PAST)
+# translation = "Then there is no doubt. You are becoming king! I am to be the queen consort!" said Sirimal Ethana laughing.
+1	"	"	PUNCT	_	_	5	punct	_	_
+2	එහෙනම්	එහෙනම්	ADV	_	_	5	advmod	_	_
+3	කිසිම	කිසිම	DET	_	PronType=Ind	4	det	_	_
+4	අනුමානයක්	අනුමානය	NOUN	_	Case=Nom|Definite=Ind|Number=Sing	5	nsubj	_	_
+5	නැහැ,	නෑ	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+6	ඔයා	ඔයා	PRON	_	Number=Sing|PronType=Prs	8	nsubj	_	_
+7	රජ	රජ	NOUN	_	Case=Nom|Number=Sing	8	xcomp	_	_
+8	වෙනවා	වෙනවා	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	මං	මම	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	අගබිසොව	අගබිසව	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	parataxis	_	_
+12	"	"	PUNCT	_	_	5	punct	_	_
+13	කියලා	කියලා	SCONJ	_	_	17	advcl	_	_
+14	සිරිමල්	සිරිමල්	PROPN	_	Animacy=Hum|Gender=Fem|Number=Sing	17	nsubj	_	_
+15	එතනා	එතනා	PROPN	_	Animacy=Hum|Gender=Fem|Number=Sing	14	flat:name	_	_
+16	හිනා	හිනා	ADV	_	_	17	advmod	_	_
+17	උනා	වෙන්න	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 61
+# text = මේ කථාව යද්දි ආයෙත් බෙර සද්දයක් ඇහෙන්න පටන් ගත්තා .
+# original_text = මේ      කථාව        යද්දි       ආයෙත්       බෙර     සද්දයක්             ඇහෙන්න  පටන් ගත්තා .
+# gloss = this    talk        go-while    far (ABL)   drum    sound (INDF)    hear (INF)  begin (PAST)
+# translation = While the conversation was going on, they heard the throb of distant drums.
+1	මේ	මේ	DET	_	PronType=Dem	2	det	_	_
+2	කථාව	කථාව	NOUN	_	Number=Sing	9	obl:tmod	_	_
+3	යද්දි	යද්දි	SCONJ	_	_	2	mark	_	_
+4	ආයෙත්	ආයෙත්	ADV	_	_	9	advmod	_	_
+5	බෙර	බෙර	NOUN	_	Case=Nom|Number=Sing	6	compound	_	_
+6	සද්දයක්	සද්දය	NOUN	_	Case=Nom|Definite=Ind|Number=Sing	9	nsubj	_	_
+7	ඇහෙන්න	ඇහෙන්න	VERB	_	VerbForm=Inf	9	xcomp	_	_
+8	පටන්	පටන්	NOUN	_	Case=Nom	9	compound:lvc	_	_
+9	ගත්තා	ගන්න	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 62
+# text = දෙන්නාට ඇස් අදහා ගන්න බැරි උනා .
+# original_text = දෙන්නාට             ඇස්     අදහා ගන්න           බැරි උනා .
+# gloss = Two (ANIM - DAT)    eye     belive (REFL-INF)   be impossible (PAST)
+# translation = The two couldn't believe their eyes.
+1	දෙන්නාට	දෙන්නා	NOUN	_	Case=Dat|Number=Plur	6	iobj	_	_
+2	ඇස්	ඇස	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	3	obj	_	_
+3	අදහා	අදහා	VERB	_	VerbForm=Inf|Voice=Act	4	compound:lvc	_	_
+4	ගන්න	ගන්න	VERB	_	VerbForm=Inf	5	xcomp	_	_
+5	බැරි	බැරි	ADJ	_	Degree=Pos	6	xcomp	_	_
+6	උනා	වෙන්න	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 63
+# text = මංගල හස්ථි රාජයා වෙල්යායේ මැද්දෙන් මේ ගොල්ලො දිහාට ගරු ගාම්භීර තාලෙට එනවා .
+# original_text = මංගල හස්ථි රාජයා        වෙල්යායේ                මැද්දෙන්        මේ      ගොල්ලො  දිහාට           ගරු ගාම්භීර         තාලෙට   එනවා .
+# gloss = royal elephant          terrace of rice field   through     these   people      direction (DAT) solemn style (DAT) come (IND)
+# translation = The royal elephant was stepping solemnly through the rice fields in their direction.
+1	මංගල	මංගල	ADJ	_	Degree=Pos	3	amod	_	_
+2	හස්ථි	හස්ථි	NOUN	_	Number=Sing	3	compound	_	_
+3	රාජයා	රාජයා	NOUN	_	Animacy=Anim|Case=Nom|Number=Sing	12	nsubj	_	_
+4	වෙල්යායේ	වෙල්යාය	NOUN	_	Case=Loc|Number=Sing	5	nmod	_	_
+5	මැද්දෙන්	මැද්ද	NOUN	_	Case=Abl|Number=Sing	12	obl	_	_
+6	මේ	මේ	DET	_	PronType=Dem	7	det	_	_
+7	ගොල්ලො	ගොල්ලො	NOUN	_	Animacy=Hum|Case=Dat|Number=Plur	12	obl	_	_
+8	දිහාට	දිහා	NOUN	_	Case=Dat|Number=Sing	7	case	_	_
+9	ගරු	ගරු	ADJ	_	Degree=Pos	11	amod	_	_
+10	ගාම්භීර	ගාම්භීර	ADJ	_	Degree=Pos	11	amod	_	_
+11	තාලෙට	තාලෙ	NOUN	_	Case=Dat|Number=Sing	12	obl	_	_
+12	එනවා	එනවා	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 64
+# text = පිටිපස්සෙන් ඇමැතිවරු කන්ඩායමක් එක්ක ලොකු පෙරහැරක් .
+# original_text = පිටිපස්සෙන්     ඇමැතිවරු            කන්ඩායමක්       එක්ක        ලොකු    පෙරහැරක් .
+# gloss = behind minister (HON - PL) group (INDF)    together    big     procession (INDF)
+# translation = Behind him a grand parade was marching along with a cabinet of ministers following it.
+1	පිටිපස්සෙන්	පිටිපස්ස	NOUN	_	Case=Abl|Number=Sing	6	obl	_	_
+2	ඇමැතිවරු	ඇමැතිවරයා	NOUN	_	Animacy=Hum|Number=Plur	3	nmod	_	_
+3	කන්ඩායමක්	කන්ඩායම	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+4	එක්ක	එක්ක	ADP	_	_	3	case	_	_
+5	ලොකු	ලොකු	ADJ	_	Degree=Pos	6	amod	_	_
+6	පෙරහැරක්	පෙරහැර	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 65
+# text = කුඹුරට ආපු මංගල හස්ථියා අප්පුවා ඉදිරියේ දණ ගහලා නමස්කාර කලා .
+# original_text = කුඹුරට              ආපු         මංගල හස්ථියා        අප්පුවා     ඉදිරියේ         දණ  ගහලා        නමස්කාර කලා .
+# gloss = rice field (DAT)    come (PT)   royal elephant      Appuwa  before      kneel   down (PP)   greet (PAST)
+# translation = The royal tusker came forward to the rice field, knelt down before Appuwa and greeted him.
+1	කුඹුරට	කුඹුර	NOUN	_	Case=Dat|Number=Sing	2	obl	_	_
+2	ආපු	ආ	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Part	4	acl	_	_
+3	මංගල	මංගල	ADJ	_	Degree=Pos	4	amod	_	_
+4	හස්ථියා	හස්ථියා	NOUN	_	Animacy=Anim|Case=Nom|Number=Sing	10	nsubj	_	_
+5	අප්පුවා	අප්පුවා	PROPN	_	Animacy=Hum|Case=Dat|Number=Sing	6	nmod	_	_
+6	ඉදිරියේ	ඉදිරිය	NOUN	_	Case=Loc|Number=Sing	8	obl	_	_
+7	දණ	දණ	NOUN	_	Case=Acc|Number=Sing	8	obj	_	_
+8	ගහලා	ගහන	VERB	_	Aspect=Perf|VerbForm=Part	10	advcl	_	_
+9	නමස්කාර	නමස්කාර	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
+10	කලා	කලා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 66
+# text = අප්පුවා සුවඳ පැණින් නාවලා සළුපිළි අන්දවලා ඇතා පිටේ වාඩි කරවගෙන මාළිගයට කැන්දවාගෙන ගියා .
+# original_text = අප්පුවා     සුවඳ        පැණින්      නාවලා               සළුපිළි         අන්දවලා         ඇතා         පිටේ        වාඩි කරවගෙන         මාළිගයට         කැන්දවාගෙන      ගියා .
+# gloss = Appuwa  fragrant    water (INS) bathe (CAUS- PP)    garment     wear (CAUS-PP)  elephant    back (LOC)  sit (CAUS-REFL-PP)  palace (DAT)    escort (REFL-PP)    go (PAST)
+# translation = They bathed Appuwa in fragrant water, dressed him in royal robes, sat him on the elephant's back and escorted him to the palace (for the coronation ceremony).
+1	අප්පුවා	අප්පුවා	PROPN	_	Animacy=Hum|Case=Acc|Number=Sing	12	obj	_	_
+2	සුවඳ	සුවඳ	ADJ	_	Degree=Pos	3	amod	_	_
+3	පැණින්	පැණි	NOUN	_	Case=Ins|Number=Sing	4	obl	_	_
+4	නාවලා	නාවලා	VERB	_	Aspect=Perf|VerbForm=Part	12	advcl	_	_
+5	සළුපිළි	සළුපිළි	NOUN	_	Case=Acc|Number=Plur	6	obj	_	_
+6	අන්දවලා	අන්දවලා	VERB	_	Aspect=Perf|VerbForm=Part	12	advcl	_	_
+7	ඇතා	ඇතා	NOUN	_	Animacy=Anim|Case=Loc|Number=Sing	8	nmod:poss	_	_
+8	පිටේ	පිට	NOUN	_	Case=Loc|Number=Sing	9	obl	_	_
+9	වාඩි	වාඩි	VERB	_	VerbForm=Part	10	compound:lvc	_	_
+10	කරවගෙන	කරවගෙන	VERB	_	Aspect=Perf|VerbForm=Part	12	advcl	_	_
+11	මාළිගයට	මාළිගාව	NOUN	_	Case=Dat|Number=Sing	13	obl	_	_
+12	කැන්දවාගෙන	කැන්දවාගෙන	VERB	_	Aspect=Perf|Number=Sing|VerbForm=Part	13	compound:lvc	_	_
+13	ගියා	ගියා	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 67
+# text = මේ විදියට අප්පුවා ඇතුගල්පුරේ රජ උනා. සිරිමල් එතනා අග බිසව උනා .
+# original_text = මේ      විදියට      අප්පුවා     ඇතුගල්පුරේ          රජ      උනා.            සිරිමල් එතනා    අග  බිසව    උනා .
+# gloss = this    way (DAT)   Appuwa  Ethugalpura (LOC)   king    become (PAST)   Sirimal Ethana  top queen   become (PAST)
+# translation = This is how Appuwa was enthroned at Etugal City and Sirimal Ethana became the queen consort.
+1	මේ	මේ	DET	_	PronType=Dem	2	det	_	_
+2	විදියට	විදිය	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
+3	අප්පුවා	අප්පුවා	PROPN	_	Animacy=Hum|Case=Nom|Number=Sing	6	nsubj	_	_
+4	ඇතුගල්පුරේ	ඇතුගල්පුර	PROPN	_	Case=Loc|Number=Sing	6	obl	_	_
+5	රජ	රජ	NOUN	_	Animacy=Hum|Case=Nom|Number=Sing	6	obj	_	_
+6	උනා.	වු	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	සිරිමල්	සිරිමල්	PROPN	_	Animacy=Hum|Case=Nom|Number=Sing	11	nsubj	_	_
+8	එතනා	එතනා	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
+9	අග	අග	ADJ	_	Degree=Pos	10	amod	_	_
+10	බිසව	බිසව	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	_
+11	උනා	වූ	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	parataxis	_	_
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 68
+# text = මියගිය වත්හිමි කුමාරයා දෙවි කෙනෙක් උනා .
+# original_text = මියගිය      වත්හිමි         කුමාරයා     දෙවි කෙනෙක්     උනා .
+# gloss = die (PT)    Wathhimi    prince      god (INDF)      become (PAST)
+# translation = And the Prince Wathhimi, who had been killed, became a god.
+1	මියගිය	මියගිය	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Part	2	acl	_	_
+2	වත්හිමි	වත්හිමි	PROPN	_	Animacy=Hum|Case=Nom|Number=Sing	6	nsubj	_	_
+3	කුමාරයා	කුමාරයා	NOUN	_	Animacy=Hum|Case=Nom|Number=Sing	2	appos	_	_
+4	දෙවි	දෙවියන්	NOUN	_	Case=Nom|Number=Sing	5	compound	_	_
+5	කෙනෙක්	කෙනෙක්	NOUN	_	Case=Nom|Number=Sing	6	xcomp	_	_
+6	උනා	වූ	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 69
+# text = ජනී ජනයාගේ දුක බලන්න සුදු අශ්වයෙක් පිට නැගලා ඇතුගල හරහා සැරිසරන්නේ ඒ ගලේ බණ්ඩාර දෙවියෝ .
+# original_text = ජනී ජනයාගේ      දුක             බලන්න       සුදු        අශ්වයෙක්        පිට         නැගලා       ඇතුගල       හරහා    සැරිසරන්නේ          ඒ       ගලේ බණ්ඩාර  දෙවියෝ .
+# gloss = many people (GEN)   suffering   see (INF)   white   horse (INDF)    back    ride (PP)   Ethugala    across  travel (NPT-FOC)    that    Gale Bandara    God
+# translation = It is this God Galee Bandara that travels across Etugala riding a white horse to care about the sufferings of many people.
+1	ජනී	ජන	ADJ	_	Degree=Pos	2	amod	_	_
+2	ජනයාගේ	ජනයා	NOUN	_	Animacy=Anim|Case=Gen|Number=Sing	3	nmod:poss	_	_
+3	දුක	දුක	NOUN	_	Animacy=Hum|Case=Acc|Number=Sing	4	obj	_	_
+4	බලන්න	බලන්න	VERB	_	VerbForm=Inf	11	advcl	_	_
+5	සුදු	සුදු	ADJ	_	Degree=Pos	6	amod	_	_
+6	අශ්වයෙක්	අශ්වයා	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
+7	පිට	පිට	NOUN	_	Case=Loc|Number=Sing	8	obl	_	_
+8	නැගලා	නැගලා	VERB	_	Aspect=Perf|VerbForm=Part	11	advcl	_	_
+9	ඇතුගල	ඇතුගල	PROPN	_	Case=Acc|Number=Sing	11	obl	_	_
+10	හරහා	හරහා	ADP	_	_	9	case	_	_
+11	සැරිසරන්නේ	සැරිසරන	VERB	_	Aspect=Prog|Mood=Ind|VerbForm=Fin	0	root	_	_
+12	ඒ	ඒ	PRON	_	PronType=Dem	14	det	_	_
+13	ගලේ	ගලේ	NOUN	_	Case=Loc|Number=Sing	14	nmod:poss	_	_
+14	බණ්ඩාර	බණ්ඩාර	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+15	දෙවියෝ	දෙවියෝ	NOUN	_	Case=Nom|Number=Sing	14	appos	_	_
+16	.	.	PUNCT	_	_	11	punct	_	_
+
