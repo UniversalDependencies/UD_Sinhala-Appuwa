@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>69</sentences><tokens>669</tokens><words>669</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>69</sentences><tokens>669</tokens><words>669</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="367" /><!-- ., අප්පුවා, කුමාරයා, එතනා, රජතුමා, ගන්න, මේ, සිරිමල්, වෙන්න, ඒ, මාළිගාව, කර, කළු, කිය, වත්හිමි -->
+  <forms unique="410" /><!-- ., අප්පුවා, උනා, එතනා, රජතුමා, සිරිමල්, මේ, ඒ, කියලා, ගත්තා, කළු, ගියා, වත්හිමි, අග්බෝ, ආපු -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="14">
+    <tag name="ADJ">41</tag><!-- අලුත්, කළු, මංගල, ඊළඟ, පුංචි, බාල, මඟුල්, මුස්ලිම්, සුදු, අග -->
+    <tag name="ADP">14</tag><!-- අතර, එක්ක, ගැන, ඇතුලු, උඩ, කොට, වලින්, විරුද්ධව, හරහා -->
+    <tag name="ADV">17</tag><!-- අන්තිම, අවාසනාව, ආයෙත්, ඉක්මන, ඉක්මනින්, ඉතින්, ඉස්සර, ඉස්සෙල්ලා, එදා, එහෙනම් -->
+    <tag name="AUX">2</tag><!-- නෑ -->
+    <tag name="DET">7</tag><!-- මේ, කිසිම, කෙනෙක්, ටික -->
+    <tag name="INTJ">1</tag><!-- අනේ -->
+    <tag name="NOUN">259</tag><!-- කුමාරයා, රජතුමා, මාළිගාව, කුඹුර, කොඩිය, ගමරාළ, දුව, යුද්ධය, රජ, රට -->
+    <tag name="NUM">6</tag><!-- දෙක, දෙදෙනා, පස්, හත්සීයක්, හැට, හැටපස් -->
+    <tag name="PART">3</tag><!-- තමයි, නැති, විතර -->
+    <tag name="PRON">27</tag><!-- ඒ, මේ, එක, මම, තමන්, සිය, අර, ඇය, ඔය, ඔයා -->
+    <tag name="PROPN">60</tag><!-- අප්පුවා, එතනා, සිරිමල්, වත්හිමි, අග්බෝ, බුවනෙකබා, ඇතුගල, කුරුණෑගල, වීරගල, ඇතුගල්පුර -->
+    <tag name="PUNCT">75</tag><!-- ., ", ,, ! -->
+    <tag name="SCONJ">9</tag><!-- කිය, කියලා, කොට, යද්දි -->
+    <tag name="VERB">148</tag><!-- ගන්න, වෙන්න, කර, ආ, කරනවා, දැක, පැන, බඳිනවා, යන්න, වෙන -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="38">
+    <feat name="Animacy" value="Anim" upos="NOUN,PROPN">6</feat><!-- ඇතා, අප්පුවා, ජනයාගේ, රාජයා, හස්ථියා -->
+    <feat name="Animacy" value="Hum" upos="NOUN,PROPN">38</feat><!-- අප්පුවා, රජතුමා, සිරිමල්, ඇමැතිවරු, එතනා, දිවි, නැන්දා, අගමෙහෙසියට, එතනාට, කුමාරයා -->
+    <feat name="Animacy" value="Inan" upos="NOUN">1</feat><!-- ඇස් -->
+    <feat name="Aspect" value="Perf" upos="VERB">28</feat><!-- ආපු, ගහලා, නසා, පැනලා, බැඳලා, අන්දවලා, අරන්, කම්පාවෙලා, කරලා, කරවගෙන -->
+    <feat name="Aspect" value="Prog" upos="VERB">3</feat><!-- ඉදගෙන, වෙන, සැරිසරන්නේ -->
+    <feat name="Case" value="Abl" upos="NOUN,PROPN">12</feat><!-- යුද්ධෙන්, ගමරාළගෙන්, ගලෙන්, පර්වතයෙන්, පරාද, පිටිපස්සෙන්, බැළුම්ගලෙන්, මරණෙන්, මාළිගාවෙන්, මැද්දෙන් -->
+    <feat name="Case" value="Acc" upos="NOUN,PRON,PROPN">42</feat><!-- කුමාරයාව, කොඩිය, කොඩියක්, ජය, දරුවාව, දිවි, අප්පුවා, ඇතුගල, ඇඹුල, ඉඩමකුයි -->
+    <feat name="Case" value="Dat" upos="NOUN,PRON,PROPN">40</feat><!-- අප්පුවාට, පදිංචියට, කුමාරයාට, රජකමට, විදියට, හැටියට, අගමෙහෙසියට, අතට, අප්පුවා, ඇයට -->
+    <feat name="Case" value="Gen" upos="NOUN">7</feat><!-- කුමාරයාගේ, ජනයාගේ, බිරිඳගේ, රජතුමාගේ, රජුගේ, රට -->
+    <feat name="Case" value="Ins" upos="NOUN,PRON">8</feat><!-- නමින්, එක, ගෞරවයෙන්, චාරිත්‍රේ, පැණින්, පෙරහැරෙන්, වෙලාවකින් -->
+    <feat name="Case" value="Loc" upos="NOUN,PROPN">37</feat><!-- මාළිගාවේ, රටේ, ඉදිරියේ, යුද්ධේ, අතරමගදි, ඇතා, ඇතුගල්පුරේ, උකුලේ, එදා, ඔලුව -->
+    <feat name="Case" value="Nom" upos="NOUN,PRON,PROPN">102</feat><!-- රජ, කුමාරයා, රජතුමා, ඇතා, ඇමැතිවරු, ඒ, කෙනෙක්, දවල්, පටන්, පණිවිඩකාරයා -->
+    <feat name="Definite" value="Def" upos="NOUN">15</feat><!-- කොඩිය, පණිවිඩකාරයා, යුද්ධේ, හීනේ, අගමෙහෙසියට, දවසේ, පාලනය, මිනිහා, රජතුමා, රජතුමාගේ -->
+    <feat name="Definite" value="Ind" upos="NOUN">26</feat><!-- කොඩියක්, අනුමානයක්, කන්දක්, කාලයක්, කැරැල්ලක්, කුමන්ත්‍රණයක්, කුමාරයෙක්, කෙනෙක්, ගෙදරක, තරුණයෙක් -->
+    <feat name="Degree" value="Pos" upos="ADJ,NOUN">30</feat><!-- කළු, ඊළඟ, පුංචි, බාල, මංගල, මඟුල්, සුදු, අග, අලුත්, කරුණාවන්තයි -->
+    <feat name="Gender" value="Fem" upos="NOUN,PRON,PROPN">26</feat><!-- එතනා, දුව, නැන්දා, සිරිමල්, අගබිසොව, අගමෙහෙසිය, ඇයට, එතනාව, දූලා, බිරිඳගේ -->
+    <feat name="Gender" value="Masc" upos="NOUN,PROPN">35</feat><!-- අප්පුවා, රජතුමා, වත්හිමි, අග්බෝ, කුමාරයා, කුමාරයාට, බුවනෙකබා, ඇතා, කුමාරයාගේ, කුමාරයාත් -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">73</feat><!-- උනා, ගත්තා, ගියා, කලා, හිටියා, උනේ, කලේ, දැක්කා, වෙනවා, ඇතිඋනා -->
+    <feat name="Mood" value="Pot" upos="VERB">1</feat><!-- ඔසවාවි -->
+    <feat name="Number" value="Plur" upos="NOUN,PRON">30</feat><!-- ඇමැතිවරු, දිවි, බිසෝවරු, රෙදි, අවුරුදු, ඇමතිවරු, ඇස්, උවදුරු, ඔවුන්ට, කරුනු -->
+    <feat name="Number" value="Sing" upos="NOUN,PRON,PROPN,VERB">282</feat><!-- එතනා, රජතුමා, සිරිමල්, අප්පුවා, අග්බෝ, කුමාරයා, රජ, අප්පුවාට, ඇතා, දුව -->
+    <feat name="NumType" value="Card" upos="NUM">5</feat><!-- දෙක, පස්, හත්සීයකට, හැට, හැටපස්දෙනෙක් -->
+    <feat name="Person" value="1" upos="PRON">3</feat><!-- මං, මම -->
+    <feat name="Person" value="3" upos="PRON,VERB">8</feat><!-- ගත්තා, ඉස්සුවා, ඔවුන්ට, තිබුනා, මියගියා, යනවා, වැඩකලා -->
+    <feat name="Polarity" value="Neg" upos="AUX,PART">3</feat><!-- නැති, නැහැ,, නෑ -->
+    <feat name="Poss" value="Yes" upos="PRON">2</feat><!-- සිය -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">20</feat><!-- මේ, ඒ, එක, අර, එකයි, ඒකට, ඔය, මීට -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">4</feat><!-- කවුරුහරි, කිසිම, කෙනෙක්, ටික -->
+    <feat name="PronType" value="Prs" upos="PRON">10</feat><!-- මං, සිය, ඇයට, ඔයා, ඔවුන්ට, තමන්ට, තමන්ව, මම -->
+    <feat name="Tense" value="Fut" upos="VERB">2</feat><!-- ඒවි, ඔසවාවි -->
+    <feat name="Tense" value="Past" upos="VERB">78</feat><!-- උනා, ගත්තා, ගියා, ආපු, කලා, හිටියා, උනේ, කලේ, දැක්කා, නසා -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">10</feat><!-- වෙනවා, එනවා, කියන, කියන්නේ, නැහැ,, පවත්වන, යනවා, වෙන, හානවා -->
+    <feat name="VerbForm" value="Conv" upos="VERB">6</feat><!-- අරන්, ගිහින්, තෝර, දැකලා, පැනලා, බීලා -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">74</feat><!-- උනා, ගත්තා, ගියා, කලා, හිටියා, උනේ, ඔසවාවි, කලේ, දැක්කා, වෙනවා -->
+    <feat name="VerbForm" value="Inf" upos="VERB">19</feat><!-- කරන්න, ගන්න, අදහා, ඇහෙන්න, ඉන්න, ගහන්න, තෝරගන්න, දෙන්න, නිවා, පත් -->
+    <feat name="VerbForm" value="Part" upos="VERB">50</feat><!-- ආපු, කියන, වෙන, ගහලා, නසා, පැනලා, බැඳලා, මියගිය, අන්දවලා, අරන් -->
+    <feat name="Voice" value="Act" upos="VERB">9</feat><!-- අදහා, ඇවිලෙව්වා, ඉදිකෙරුවා, කලා, කිව්වා, දැක්වුවේ, නැගිටලා, මියගියා, රිස්සුවේ -->
+    <feat name="Voice" value="Pass" upos="VERB">1</feat><!-- උනේ -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="29">
+    <dep name="acl">24</dep>
+    <dep name="advcl">36</dep>
+    <dep name="advmod">18</dep>
+    <dep name="amod">36</dep>
+    <dep name="appos">4</dep>
+    <dep name="aux">1</dep>
+    <dep name="case">17</dep>
+    <dep name="ccomp">2</dep>
+    <dep name="clf">1</dep>
+    <dep name="compound">37</dep>
+    <dep name="compound:lvc">20</dep>
+    <dep name="compound:svc">2</dep>
+    <dep name="conj">4</dep>
+    <dep name="det">17</dep>
+    <dep name="discourse">3</dep>
+    <dep name="flat:name">6</dep>
+    <dep name="iobj">12</dep>
+    <dep name="mark">7</dep>
+    <dep name="nmod">30</dep>
+    <dep name="nmod:poss">10</dep>
+    <dep name="nsubj">76</dep>
+    <dep name="nummod">5</dep>
+    <dep name="obj">57</dep>
+    <dep name="obl">72</dep>
+    <dep name="obl:tmod">5</dep>
+    <dep name="parataxis">4</dep>
+    <dep name="punct">75</dep>
+    <dep name="root">69</dep>
+    <dep name="xcomp">19</dep>
+  </deps>
+</treebank>
